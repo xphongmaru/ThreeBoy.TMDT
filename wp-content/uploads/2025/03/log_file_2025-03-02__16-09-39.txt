@@ -1,0 +1,176 @@
+
+---Downloaded files---
+The import files for: Default Demo were successfully downloaded!
+Initial max execution time = 36000
+Files info:
+Site URL = http://threeboy.test
+Data file = E:\laragon\www\ThreeBoy/wp-content/uploads/2025/03/demo-content-import-file_2025-03-02__16-09-39.xml
+Widget file = E:\laragon\www\ThreeBoy/wp-content/uploads/2025/03/demo-widgets-import-file_2025-03-02__16-09-39.json
+Customizer file = E:\laragon\www\ThreeBoy/wp-content/uploads/2025/03/demo-customizer-import-file_2025-03-02__16-09-39.dat
+
+------
+Completed AJAX call number: 1
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_size S
+
+
+------
+Completed AJAX call number: 2
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_size S
+[ERROR] Failed to import "iuascbhasbhcbashbcas" (Media)
+
+
+------
+Completed AJAX call number: 3
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_size S
+
+
+------
+Completed AJAX call number: 4
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_size S
+
+
+------
+Completed AJAX call number: 5
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_size S
+
+
+------
+Completed AJAX call number: 6
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_size S
+
+
+------
+Completed AJAX call number: 7
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_size S
+[ERROR] Failed to import "5d35b3f0d768a" (Media)
+
+
+------
+Completed AJAX call number: 8
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_size S
+[ERROR] Failed to import "5d35b3f0d768a" (Media)
+
+
+------
+Completed AJAX call number: 9
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_size S
+
+
+------
+Completed AJAX call number: 10
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_size S
+[ERROR] Failed to import "chairs-comfort-contemporary-1813502" (Media)
+
+
+------
+Completed AJAX call number: 11
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_size S
+
+
+---Importing content---
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_size S
+[WARNING] Could not find the post parent for "" (post #337)
+[WARNING] Could not find the post parent for "" (post #338)
+[WARNING] Could not find the post parent for "" (post #349)
+[WARNING] Could not find the post parent for "" (post #350)
+[WARNING] Could not find the post parent for "" (post #351)
+[WARNING] Could not find the post parent for "" (post #352)
+[WARNING] Could not find the post parent for "" (post #355)
+[WARNING] Could not find the post parent for "" (post #356)
+[WARNING] Could not find the post parent for "" (post #357)
+[WARNING] Could not find the post parent for "" (post #358)
+[WARNING] Could not find the post parent for "" (post #361)
+[WARNING] Could not find the post parent for "" (post #457)
+[WARNING] Could not find the post parent for "" (post #458)
+[WARNING] Could not find the post parent for "" (post #459)
+[WARNING] Could not find the author for comment #2
+[WARNING] Could not find the author for comment #3
+[WARNING] Could not find the author for comment #7
+[WARNING] Could not find the author for comment #8
+
+Max execution time after content import = 300
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---Importing widgets---
+sidebar-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+HTML Tùy chỉnh - About - Imported to Inactive
+
+sidebar-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Danh sách các sản phẩm - On sale - Imported to Inactive
+
+sidebar-5 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Sản phẩm theo Danh sách bình chọn - Top rated products - Imported to Inactive
+
+sidebar-6 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Danh sách các sản phẩm - New Arrivals - Imported to Inactive
+
+ Cột bên : 
+
+Tìm kiếm - Search - Imported
+Các danh mục sản phẩm - Product categories - Imported
+
+Widget trang chủ : 
+
+OS: Banner - No Title - Imported
+OS: Danh mục sản phẩm nổi bật - Featured Categories - Imported
+OS: Sản phẩm - Female Clothing - Imported
+OS: Dịch vụ - No Title - Imported
+OS: Sản phẩm theo lọc danh mục - Product Category Filter - Imported
+OS: Quảng cáo offer - No Title - Imported
+OS: Sản phẩm - New Furnitures - Imported
+OS: Bài viết mới nhất - From the blog - Imported
+
+Cuối trang 1 : 
+
+OS: Giới thiệu - About - Imported
+
+Cuối trang 2 : 
+
+Sản phẩm theo Danh sách bình chọn - Top rated products - Imported
+
+Cuối trang 3 : 
+
+Danh sách các sản phẩm - Product on sale - Imported
+
+Cột phụ WooCommerce : 
+
+Tìm kiếm sản phẩm - Search - Imported
+Lọc sản phẩm bởi giá - Filter by price - Imported
+Các danh mục sản phẩm - Product categories - Imported
+Đánh giá về sản phẩm hiện tại - Recent reviews - Imported
+Danh sách các sản phẩm - On sale - Imported
+
+
+
+---themebeez_toolkit_after_demo_content_import---
+
