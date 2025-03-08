@@ -1,0 +1,1924 @@
+# Copyright (C) 2024 themebeez
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Themebeez Toolkit 1.3.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/themebeez-toolkit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-30T17:12:19+05:45\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: themebeez-toolkit\n"
+
+#. Plugin Name of the plugin
+#: themebeez-toolkit.php
+msgid "Themebeez Toolkit"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: themebeez-toolkit.php
+msgid "https://wordpress.org/plugins/themebeez-toolkit/"
+msgstr ""
+
+#. Description of the plugin
+#: themebeez-toolkit.php
+msgid "A essential toolkit for themes made by www.themebeez.com. This plugin extends themes made by themebeez & adds functionality to import demo data in just a click."
+msgstr ""
+
+#. Author of the plugin
+#: themebeez-toolkit.php
+msgid "themebeez"
+msgstr ""
+
+#. Author URI of the plugin
+#: themebeez-toolkit.php
+msgid "https://themebeez.com"
+msgstr ""
+
+#: admin/class-themebeez-toolkit-admin.php:64
+msgid "Latest Posts From Themebeez"
+msgstr ""
+
+#: admin/class-themebeez-toolkit-admin.php:91
+msgid "Main Site"
+msgstr ""
+
+#: admin/class-themebeez-toolkit-admin.php:93
+#: admin/class-themebeez-toolkit-admin.php:99
+#: admin/class-themebeez-toolkit-admin.php:105
+msgid "Open in a new tab"
+msgstr ""
+
+#: admin/class-themebeez-toolkit-admin.php:97
+msgid "All Themes"
+msgstr ""
+
+#: admin/class-themebeez-toolkit-admin.php:103
+msgid "Blog Posts"
+msgstr ""
+
+#. translators: 1: strong open tag 2: strong close tag 3: br tag
+#: includes/demo-importer/admin/class-tt-admin.php:47
+msgid "The %2$Themebeez Demo Importer%3$s plugin requires %2$sPHP 5.3.2+%3$s to run properly. Please contact your hosting company and ask them to update the PHP version of your site to at least PHP 5.3.2.%4$s Your current version of PHP: %2$s%1$s%3$s"
+msgstr ""
+
+#: includes/demo-importer/class-themebeez-demo-importer.php:63
+#: includes/demo-importer/class-themebeez-demo-importer.php:72
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#. Translators: %s: import file name
+#: includes/demo-importer/class-tt-helpers.php:80
+msgid "\"import_file_url\" or \"local_import_file\" for <strong>%s</strong> are not defined!"
+msgstr ""
+
+#. Translators: %s: file name
+#: includes/demo-importer/class-tt-helpers.php:183
+msgid "URL for <strong>%s</strong> file is not defined!"
+msgstr ""
+
+#. Translators: 1: filename, 2: error code, 3: error message
+#: includes/demo-importer/class-tt-helpers.php:204
+msgid "An error occurred while fetching <strong>%1$s</strong> file from the server!<br>Reason: %2$s - %3$s."
+msgstr ""
+
+#. Translators: %s: file path
+#: includes/demo-importer/class-tt-helpers.php:243
+#: includes/demo-importer/class-tt-helpers.php:288
+msgid "An error occurred while writing file to your server! Tried to write a file to: <br>%s."
+msgstr ""
+
+#. Translators: %s: file path
+#: includes/demo-importer/class-tt-helpers.php:324
+msgid "An error occurred while reading a file from your server! Tried reading file from path: <br>%s."
+msgstr ""
+
+#. Translators: %s: set direct filesystem method
+#: includes/demo-importer/class-tt-helpers.php:348
+msgid "This WordPress page does not have <strong>direct</strong> write file access. This plugin needs it in order to save the demo import xml file to the upload directory of your site. You can change this setting with these instructions: %s."
+msgstr ""
+
+#: includes/demo-importer/class-tt-helpers.php:359
+msgid "Themebeez Demo Import"
+msgstr ""
+
+#: includes/demo-importer/class-tt-helpers.php:360
+msgid "Import Demo Data"
+msgstr ""
+
+#: includes/demo-importer/class-tt-helpers.php:372
+msgid "An error occurred while retrieving reading/writing permissions to your server (could not retrieve WP filesystem credentials)!"
+msgstr ""
+
+#: includes/demo-importer/class-tt-helpers.php:380
+msgid "Your WordPress login credentials don't allow to use WP_Filesystem!"
+msgstr ""
+
+#: includes/demo-importer/class-tt-helpers.php:447
+msgid "Themebeez Demo Import - "
+msgstr ""
+
+#: includes/demo-importer/class-tt-helpers.php:482
+msgid "Your user role isn't high enough. You don't have permission to import demo data."
+msgstr ""
+
+#: includes/demo-importer/class-tt-helpers.php:515
+msgid "Please upload XML file for content import. If you want to import widgets or customizer settings only, please use Widget Importer & Exporter or the Customizer Export/Import plugin."
+msgstr ""
+
+#: includes/demo-importer/class-tt-helpers.php:517
+#: includes/demo-importer/class-tt-helpers.php:539
+#: includes/demo-importer/class-tt-helpers.php:558
+#: includes/demo-importer/class-tt-helpers.php:566
+msgid "Upload files"
+msgstr ""
+
+#. Translators: %s: error
+#: includes/demo-importer/class-tt-helpers.php:535
+msgid "Widget file was not uploaded. Error: %s"
+msgstr ""
+
+#. Translators: %s: error
+#: includes/demo-importer/class-tt-helpers.php:554
+msgid "Customizer file was not uploaded. Error: %s"
+msgstr ""
+
+#: includes/demo-importer/class-tt-helpers.php:564
+msgid "The import files were successfully uploaded!"
+msgstr ""
+
+#. Translators: %s: max execution time
+#: includes/demo-importer/class-tt-helpers.php:583
+msgid "Initial max execution time = %s"
+msgstr ""
+
+#. Translators: 1: php eol, 2: site url, 3: content, 4: widgets, 5: customizer
+#: includes/demo-importer/class-tt-helpers.php:588
+msgid "Files info:%1$sSite URL = %2$s%1$sData file = %3$s%1$sWidget file = %4$s%1$sCustomizer file = %5$s"
+msgstr ""
+
+#: includes/demo-importer/class-tt-helpers.php:592
+#: includes/demo-importer/class-tt-helpers.php:593
+msgid "not defined!"
+msgstr ""
+
+#. translators: 1: div and p open tags, 2: strong open tag , 3: strong close tag , 4: p and div close tags
+#: includes/demo-importer/class-tt-main.php:140
+msgid "%1$sWarning: your server is using %2$sPHP safe mode%3$s. This means that you might experience server timeout errors.%4$s"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:174
+#: includes/demo-importer/class-tt-main.php:196
+msgid "Live Preview"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:177
+msgid "By Themebeez"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:183
+#: includes/demo-importer/importer/class-tt-importer-widget.php:240
+msgid "Imported"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:194
+msgid "Import Demo"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:224
+msgid "Import preview:"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:228
+#: includes/demo-importer/class-tt-main.php:356
+msgid "No preview image defined for this import."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:247
+#: includes/demo-importer/class-tt-main.php:303
+msgid "Note"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:249
+msgid "Please follow the instructions carefully to import demo content for your site."
+msgstr ""
+
+#. translators: 1: strong opening tag, 2: strong closing tag, 3: theme folder path, 4: theme name, 5: theme folder name
+#: includes/demo-importer/class-tt-main.php:255
+msgid "%1$sTheme installed with correct theme folder name:%2$s Make sure theme is installed with correct theme folder name inside %3$s. For example, %4$s theme should have %5$s theme folder name."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:263
+msgid "Your current site data will not be overwritten:"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:263
+msgid "Importing demo content will not replace existing data with demo content. Take a backup of your site if necessary."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:264
+msgid "Your server meets the requirements:"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:264
+msgid "Check server settings like PHP version, memory limit, and execution time to avoid interruptions during the import process."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:265
+msgid "You have sufficient resources:"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:265
+msgid "Demo content may include large files, so ensure adequate disk space and bandwidth."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:266
+msgid "All required plugins are installed and activated:"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:266
+msgid "The demo may depend on certain plugins for functionality."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:274
+msgid "Probable Issues and Troubleshooting"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:277
+msgid "Incomplete Import:"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:277
+msgid "Limited memory or execution time on the server."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:278
+msgid "Fix: Increase PHP memory limit and max execution time in the server configuration."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:279
+msgid "Missing Images or Media Files:"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:279
+msgid "Demo content relies on remote servers for media; server timeouts can occur."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:280
+msgid "Fix: Retry the import or manually upload missing media files."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:281
+msgid "Page Layout Issues:"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:281
+msgid "Missing or deactivated plugins or mismatched theme versions."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:282
+msgid "Fix: Verify all required plugins are active, and you&rsquo;re using the correct theme version."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:283
+msgid "Broken Links or Missing Menus:"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:283
+msgid "URL mismatches or incorrect menu assignment during import."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:284
+msgid "Fix: Manually assign menus and update URLs in the settings or database."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:285
+msgid "Timeout Errors:"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:285
+msgid "Large import files exceeding server limits."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:286
+msgid "Fix: Import demo content in smaller parts, or increase server limits."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:287
+msgid "Duplicate Content:"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:287
+msgid "Repeated demo imports."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:288
+msgid "Fix: Remove existing demo content before re-importing."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:293
+#: includes/theme-info/configs/cream-blog-config.php:49
+#: includes/theme-info/configs/cream-blog-pro-config.php:33
+#: includes/theme-info/configs/cream-magazine-config.php:48
+#: includes/theme-info/configs/cream-magazine-pro-config.php:33
+#: includes/theme-info/configs/fascinate-config.php:49
+#: includes/theme-info/configs/fascinate-pro-config.php:33
+#: includes/theme-info/configs/orchid-store-config.php:49
+#: includes/theme-info/configs/royale-news-config.php:49
+#: includes/theme-info/configs/royale-news-pro-config.php:33
+#: includes/theme-info/configs/styleblog-plus-config.php:33
+msgid "Support"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:295
+msgid "If you encounter any issues not listed above, please reach out to our support team for assistance."
+msgstr ""
+
+#. translators: 1: theme folder path, 2: theme name, 3: theme folder name
+#: includes/demo-importer/class-tt-main.php:309
+msgid "If you are not seeing any starter templates, then make sure theme is installed with correct theme folder name inside %1$s. For example, %2$s theme should have %3$s theme folder name."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:412
+msgid "Manually uploaded files"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:428
+#: includes/demo-importer/class-tt-main.php:440
+msgid "Downloaded files"
+msgstr ""
+
+#. translators: %s: import files
+#: includes/demo-importer/class-tt-main.php:436
+msgid "The import files for: %s were successfully downloaded!"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:444
+msgid "No import files specified!"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:487
+msgid "The demo import has finished. Please check your page and make sure that everything has imported correctly."
+msgstr ""
+
+#. translators: 1: br tag, 2: strong open tag, 3: anchor open tag, 4: anchor close tag, 5: strong close tag
+#: includes/demo-importer/class-tt-main.php:492
+msgid "The demo import has finished, but there were some import errors.%1$s More details about the errors can be found in this %2$s %3$slog file%4$s %5$s."
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:545
+msgid "Max execution time after content import = "
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:547
+msgid "Importing content"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:586
+#: includes/demo-importer/class-tt-main.php:598
+msgid "Importing widgets"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:620
+#: includes/demo-importer/class-tt-main.php:628
+msgid "Importing customizer settings"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:626
+msgid "Customizer settings import finished!"
+msgstr ""
+
+#: includes/demo-importer/class-tt-main.php:680
+msgid "Completed AJAX call number: "
+msgstr ""
+
+#. Translators: %s file path.
+#: includes/demo-importer/importer/class-tt-importer-customizer-importer.php:46
+msgid "The customizer import file is missing! File path: %s"
+msgstr ""
+
+#: includes/demo-importer/importer/class-tt-importer-customizer-importer.php:66
+msgid "The customizer import file is not in a correct format. Please make sure to use the correct customizer import file."
+msgstr ""
+
+#: includes/demo-importer/importer/class-tt-importer-customizer-importer.php:72
+msgid "The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: includes/demo-importer/importer/class-tt-importer-widget.php:54
+msgid "Widget import file could not be found."
+msgstr ""
+
+#: includes/demo-importer/importer/class-tt-importer-widget.php:86
+msgid "Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: includes/demo-importer/importer/class-tt-importer-widget.php:125
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: includes/demo-importer/importer/class-tt-importer-widget.php:147
+msgid "Site does not support widget"
+msgstr ""
+
+#: includes/demo-importer/importer/class-tt-importer-widget.php:182
+msgid "Widget already exists"
+msgstr ""
+
+#: includes/demo-importer/importer/class-tt-importer-widget.php:243
+msgid "Imported to Inactive"
+msgstr ""
+
+#: includes/demo-importer/importer/class-tt-importer-widget.php:249
+msgid "No Title"
+msgstr ""
+
+#: includes/demo-importer/importer/class-tt-importer-widget.php:298
+msgid "No results for widget import!"
+msgstr ""
+
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:243
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#. Translators: 1: WXR version, 2: max WXR version
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:282
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:402
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:479
+msgid "This WXR file (version %1$s) is newer than the importer (version %2$s) and may not be supported. Please consider updating."
+msgstr ""
+
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:633
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:697
+msgid "Invalid author mapping"
+msgstr ""
+
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:801
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#. Translators: 1: post title, 2: post type
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:898
+msgid "Failed to import \"%1$s\": Invalid post type %2$s"
+msgstr ""
+
+#. Translators: 1: post object level singlular name, 2: post title
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:912
+msgid "%1$s \"%2$s\" already exists."
+msgstr ""
+
+#. Translators: %s: attachment post title
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:1009
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#. Translators: 1: post title, 2: post object level singlular name
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:1027
+msgid "Failed to import \"%1$s\" (%2$s)"
+msgstr ""
+
+#. translators: 1: post title, 2: post type singular name
+#. translators: 1: term name, 2: term taxonomy
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:1064
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:1962
+msgid "Imported \"%1$s\" (%2$s)"
+msgstr ""
+
+#. translators: 1: original id, 2: post id
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:1073
+msgid "Post %1$d remapped to %2$d"
+msgstr ""
+
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:1227
+msgid "Invalid file type"
+msgstr ""
+
+#. Translators: %s user name
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:1745
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#. Translators: %s user name
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:1770
+msgid "Imported user \"%s\""
+msgstr ""
+
+#. Translators: 1 original user id, 2: user id
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:1778
+msgid "User %1$d remapped to %2$d"
+msgstr ""
+
+#. Translators: 1: term taxonomy, 2: term name
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:1934
+msgid "Failed to import %1$s %2$s"
+msgstr ""
+
+#. translators: 1: term taxonomy, 2: term name
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:1971
+msgid "Term %1$d remapped to %2$d"
+msgstr ""
+
+#. Translators: 1: status code, 2: staus header description, 3: remote url
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:2035
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:2049
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:2055
+msgid "Zero size file downloaded"
+msgstr ""
+
+#. Translators: %s: file size limit
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:2064
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#. Translators: %d: post id
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:2101
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#. Translators: 1: post title , 2: post id
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:2117
+msgid "Could not find the post parent for \"%1$s\" (post #%2$d)"
+msgstr ""
+
+#. Translators: 1: post id, 2: parent id
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:2126
+msgid "Post %1$d was imported with parent %2$d, but could not be found"
+msgstr ""
+
+#. Translators: 1: post title, 2: post id
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:2143
+msgid "Could not find the author for \"%1$s\" (post #%2$d)"
+msgstr ""
+
+#. Translators: 1: post id, 2: author slug
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:2152
+msgid "Post %1$d was imported with author \"%2$s\", but could not be found"
+msgstr ""
+
+#. Translators: %d: post id
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:2181
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#. Translators: 1: post title, 2: post id
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:2195
+msgid "Could not update \"%1$s\" (post #%2$d) with mapped data"
+msgstr ""
+
+#. Translators: 1: post title, 2: post id
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:2249
+msgid "Could not find the menu object for \"%1$s\" (post #%2$d)"
+msgstr ""
+
+#. Translators: 1: post id, 2: menu object id, 3: menu item type
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:2258
+msgid "Post %1$d was imported with object \"%2$d\" of type \"%3$s\", but could not be found"
+msgstr ""
+
+#. Translators: %d: comment id
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:2289
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#. Translators: 1: comment id, 2: parent id
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:2296
+msgid "Comment %1$d was imported with parent %2$d, but could not be found"
+msgstr ""
+
+#. Translators: %d: comment id
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:2313
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#. Translators: 1: comment id, 2: author id
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:2320
+msgid "Comment %1$d was imported with author %2$d, but could not be found"
+msgstr ""
+
+#. Translators: %d: comment id
+#: includes/demo-importer/importer/class-tt-importer-wxr-importer.php:2340
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-cream-blog-pro.php:32
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-cream-blog.php:32
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-cream-magazine-pro.php:32
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-cream-magazine.php:32
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-fascinate-pro.php:32
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-fascinate.php:32
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-royale-news-pro.php:32
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-royale-news.php:32
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-styleblog-plus.php:32
+msgid "Demo One"
+msgstr ""
+
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-cream-blog-pro.php:40
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-cream-blog.php:40
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-cream-magazine-pro.php:40
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-cream-magazine.php:40
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-fascinate-pro.php:40
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-royale-news-pro.php:40
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-styleblog-plus.php:40
+msgid "Demo Two"
+msgstr ""
+
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-cream-blog-pro.php:48
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-cream-blog.php:48
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-cream-magazine-pro.php:48
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-fascinate-pro.php:48
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-royale-news-pro.php:48
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-styleblog-plus.php:48
+msgid "Demo Three"
+msgstr ""
+
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-cream-blog-pro.php:56
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-cream-magazine-pro.php:56
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-fascinate-pro.php:56
+msgid "Demo Four"
+msgstr ""
+
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-cream-blog-pro.php:64
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-cream-magazine-pro.php:64
+msgid "Demo Five"
+msgstr ""
+
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-cream-blog-pro.php:72
+msgid "Demo Six"
+msgstr ""
+
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-cream-blog-pro.php:80
+msgid "Demo Seven"
+msgstr ""
+
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-cream-blog-pro.php:88
+msgid "Demo Eight"
+msgstr ""
+
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-orchid-store.php:39
+msgid "Default Demo"
+msgstr ""
+
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-orchid-store.php:47
+msgid "Elementor Demo"
+msgstr ""
+
+#: includes/demo-importer/theme-demo/class-tt-theme-demo-orchid-store.php:55
+msgid "RTL Demo"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-fields.php:39
+msgid "Menu Icon"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-fields.php:164
+msgid "Select Icon"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-fields.php:165
+msgid "Remove Icon"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-fields.php:181
+msgid "Set it as mega menu group"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-fields.php:184
+msgid "Set it as mega menu sub group"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:103
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:107
+msgid "%s (Pending)"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:121
+msgid "sub item"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:154
+msgid "Move up"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:156
+msgid "Move down"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:161
+msgid "Edit menu item"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:162
+msgid "Edit"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:172
+msgid "URL"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:179
+msgid "Navigation Label"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:185
+msgid "Title Attribute"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:192
+msgid "Open link in a new tab"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:197
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:203
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:209
+msgid "Description"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:211
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:216
+msgid "Move"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:217
+msgid "Up one"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:218
+msgid "Down one"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:221
+msgid "To the top"
+msgstr ""
+
+#. translators: %s: original title
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:229
+msgid "Original: %s"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:256
+msgid "Remove"
+msgstr ""
+
+#: includes/simple-mega-menu/class-simple-mega-menu-walker-nav-menu-edit.php:260
+msgid "Cancel"
+msgstr ""
+
+#. translators: 1: theme name, 2: theme page anchor opening tag, 3: anchor closing tag
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:179
+msgid "Welcome! Thank you for choosing %1$s! To fully take advantage of the best our theme can offer please make sure you visit our %2$swelcome page%3$s."
+msgstr ""
+
+#. translators: 1: theme name
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:185
+msgid "Get started with %s"
+msgstr ""
+
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:224
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:225
+msgid "Theme Dashboard"
+msgstr ""
+
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:233
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:234
+#: includes/theme-info/configs/cream-blog-config.php:76
+#: includes/theme-info/configs/cream-blog-pro-config.php:52
+#: includes/theme-info/configs/cream-magazine-config.php:75
+#: includes/theme-info/configs/cream-magazine-pro-config.php:52
+#: includes/theme-info/configs/fascinate-config.php:76
+#: includes/theme-info/configs/fascinate-pro-config.php:52
+#: includes/theme-info/configs/orchid-store-config.php:76
+#: includes/theme-info/configs/royale-news-config.php:76
+#: includes/theme-info/configs/royale-news-pro-config.php:52
+#: includes/theme-info/configs/styleblog-plus-config.php:52
+msgid "Starter Templates"
+msgstr ""
+
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:242
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:243
+#: includes/theme-info/configs/cream-blog-config.php:77
+#: includes/theme-info/configs/cream-blog-pro-config.php:53
+#: includes/theme-info/configs/cream-magazine-config.php:76
+#: includes/theme-info/configs/cream-magazine-pro-config.php:53
+#: includes/theme-info/configs/fascinate-config.php:77
+#: includes/theme-info/configs/fascinate-pro-config.php:53
+#: includes/theme-info/configs/orchid-store-config.php:77
+#: includes/theme-info/configs/royale-news-config.php:77
+#: includes/theme-info/configs/royale-news-pro-config.php:53
+#: includes/theme-info/configs/styleblog-plus-config.php:53
+msgid "Plugins"
+msgstr ""
+
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:370
+msgid "Themebeez Logo"
+msgstr ""
+
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:371
+msgid "Themebeez"
+msgstr ""
+
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:379
+msgid "Changelog link"
+msgstr ""
+
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:400
+msgid "Hello! 👋"
+msgstr ""
+
+#. translators: 1: username.
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:405
+msgid "Hello, %s 👋"
+msgstr ""
+
+#. translators: 1: theme name.
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:413
+msgid "Welcome to %s"
+msgstr ""
+
+#. translators: 1: theme name.
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:419
+msgid "Thank you for choosing %s. Let&rsquo;s get your site up and running quickly."
+msgstr ""
+
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:429
+msgid "Start Customizing"
+msgstr ""
+
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:634
+msgid "Quick Settings"
+msgstr ""
+
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:635
+msgid "Premium Features"
+msgstr ""
+
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:640
+msgid "Go To Customizer"
+msgstr ""
+
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:640
+msgid "Upgrade Now"
+msgstr ""
+
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:690
+msgid "Pro"
+msgstr ""
+
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:796
+msgid "Install Now"
+msgstr ""
+
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:800
+msgid "Activate Now"
+msgstr ""
+
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:804
+msgid "Deactivate"
+msgstr ""
+
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:908
+#: includes/theme-info/configs/cream-blog-config.php:33
+#: includes/theme-info/configs/cream-magazine-config.php:32
+#: includes/theme-info/configs/fascinate-config.php:33
+#: includes/theme-info/configs/orchid-store-config.php:33
+#: includes/theme-info/configs/royale-news-config.php:33
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:996
+msgid "Changelog file not found."
+msgstr ""
+
+#: includes/theme-info/class-themebeez-toolkit-theme-info.php:998
+msgid "Changelog file not readable."
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:22
+#: includes/theme-info/configs/cream-blog-config.php:23
+msgid "Cream Blog Info"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:34
+#: includes/theme-info/configs/cream-magazine-config.php:33
+#: includes/theme-info/configs/fascinate-config.php:34
+#: includes/theme-info/configs/orchid-store-config.php:34
+#: includes/theme-info/configs/royale-news-config.php:34
+msgid "Get advance customization and premium support from our team of WordPress experts via email."
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:36
+#: includes/theme-info/configs/cream-magazine-config.php:35
+#: includes/theme-info/configs/fascinate-config.php:36
+#: includes/theme-info/configs/orchid-store-config.php:36
+#: includes/theme-info/configs/royale-news-config.php:36
+msgid "Get it today"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:41
+#: includes/theme-info/configs/cream-blog-pro-config.php:25
+#: includes/theme-info/configs/cream-magazine-config.php:40
+#: includes/theme-info/configs/cream-magazine-pro-config.php:25
+#: includes/theme-info/configs/fascinate-config.php:41
+#: includes/theme-info/configs/fascinate-pro-config.php:25
+#: includes/theme-info/configs/orchid-store-config.php:41
+#: includes/theme-info/configs/royale-news-config.php:41
+#: includes/theme-info/configs/royale-news-pro-config.php:25
+#: includes/theme-info/configs/styleblog-plus-config.php:25
+msgid "Documentation"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:42
+#: includes/theme-info/configs/cream-blog-pro-config.php:26
+#: includes/theme-info/configs/cream-magazine-config.php:41
+#: includes/theme-info/configs/cream-magazine-pro-config.php:26
+#: includes/theme-info/configs/fascinate-config.php:42
+#: includes/theme-info/configs/fascinate-pro-config.php:26
+#: includes/theme-info/configs/orchid-store-config.php:42
+#: includes/theme-info/configs/royale-news-config.php:42
+#: includes/theme-info/configs/royale-news-pro-config.php:26
+#: includes/theme-info/configs/styleblog-plus-config.php:26
+msgid "Stuck due to an issue? Our detailed documentation will surely clear up any confusions you have!"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:44
+#: includes/theme-info/configs/cream-blog-pro-config.php:28
+#: includes/theme-info/configs/cream-magazine-config.php:43
+#: includes/theme-info/configs/cream-magazine-pro-config.php:28
+#: includes/theme-info/configs/fascinate-config.php:44
+#: includes/theme-info/configs/fascinate-pro-config.php:28
+#: includes/theme-info/configs/orchid-store-config.php:44
+#: includes/theme-info/configs/royale-news-config.php:44
+#: includes/theme-info/configs/royale-news-pro-config.php:28
+#: includes/theme-info/configs/styleblog-plus-config.php:28
+msgid "Read Now"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:50
+#: includes/theme-info/configs/cream-blog-pro-config.php:34
+#: includes/theme-info/configs/cream-magazine-config.php:49
+#: includes/theme-info/configs/cream-magazine-pro-config.php:34
+#: includes/theme-info/configs/fascinate-config.php:50
+#: includes/theme-info/configs/fascinate-pro-config.php:34
+#: includes/theme-info/configs/orchid-store-config.php:50
+#: includes/theme-info/configs/royale-news-config.php:50
+#: includes/theme-info/configs/royale-news-pro-config.php:34
+#: includes/theme-info/configs/styleblog-plus-config.php:34
+msgid "Get in touch with our support team. You can always submit a support ticket for help."
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:52
+#: includes/theme-info/configs/cream-blog-pro-config.php:36
+#: includes/theme-info/configs/cream-magazine-config.php:51
+#: includes/theme-info/configs/cream-magazine-pro-config.php:36
+#: includes/theme-info/configs/fascinate-config.php:52
+#: includes/theme-info/configs/fascinate-pro-config.php:36
+#: includes/theme-info/configs/orchid-store-config.php:52
+#: includes/theme-info/configs/royale-news-config.php:52
+#: includes/theme-info/configs/royale-news-pro-config.php:36
+#: includes/theme-info/configs/styleblog-plus-config.php:36
+msgid "Create Post"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:57
+#: includes/theme-info/configs/cream-blog-pro-config.php:41
+#: includes/theme-info/configs/cream-magazine-config.php:56
+#: includes/theme-info/configs/cream-magazine-pro-config.php:41
+#: includes/theme-info/configs/fascinate-config.php:57
+#: includes/theme-info/configs/fascinate-pro-config.php:41
+#: includes/theme-info/configs/orchid-store-config.php:57
+#: includes/theme-info/configs/royale-news-config.php:57
+#: includes/theme-info/configs/royale-news-pro-config.php:41
+#: includes/theme-info/configs/styleblog-plus-config.php:41
+msgid "Feature Request"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:58
+#: includes/theme-info/configs/cream-blog-pro-config.php:42
+#: includes/theme-info/configs/cream-magazine-config.php:57
+#: includes/theme-info/configs/cream-magazine-pro-config.php:42
+#: includes/theme-info/configs/fascinate-config.php:58
+#: includes/theme-info/configs/fascinate-pro-config.php:42
+#: includes/theme-info/configs/orchid-store-config.php:58
+#: includes/theme-info/configs/royale-news-config.php:58
+#: includes/theme-info/configs/royale-news-pro-config.php:42
+#: includes/theme-info/configs/styleblog-plus-config.php:42
+msgid "Please take a moment to suggest any features that could enhance our product."
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:60
+#: includes/theme-info/configs/cream-blog-pro-config.php:44
+#: includes/theme-info/configs/cream-magazine-config.php:59
+#: includes/theme-info/configs/cream-magazine-pro-config.php:44
+#: includes/theme-info/configs/fascinate-config.php:60
+#: includes/theme-info/configs/fascinate-pro-config.php:44
+#: includes/theme-info/configs/orchid-store-config.php:60
+#: includes/theme-info/configs/royale-news-config.php:60
+#: includes/theme-info/configs/royale-news-pro-config.php:44
+#: includes/theme-info/configs/styleblog-plus-config.php:44
+msgid "Make a request"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:65
+#: includes/theme-info/configs/cream-magazine-config.php:64
+#: includes/theme-info/configs/fascinate-config.php:65
+#: includes/theme-info/configs/orchid-store-config.php:65
+#: includes/theme-info/configs/royale-news-config.php:65
+msgid "Leave us a review"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:66
+#: includes/theme-info/configs/cream-magazine-config.php:65
+#: includes/theme-info/configs/fascinate-config.php:66
+#: includes/theme-info/configs/orchid-store-config.php:66
+#: includes/theme-info/configs/royale-news-config.php:66
+msgid "What do you think of our theme? Was it a good experience and did it match your expectations? Let us know so we can improve!"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:68
+#: includes/theme-info/configs/cream-magazine-config.php:67
+#: includes/theme-info/configs/fascinate-config.php:68
+#: includes/theme-info/configs/orchid-store-config.php:68
+#: includes/theme-info/configs/royale-news-config.php:68
+msgid "Submit a review"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:75
+#: includes/theme-info/configs/cream-blog-pro-config.php:51
+#: includes/theme-info/configs/cream-magazine-config.php:74
+#: includes/theme-info/configs/cream-magazine-pro-config.php:51
+#: includes/theme-info/configs/fascinate-config.php:75
+#: includes/theme-info/configs/fascinate-pro-config.php:51
+#: includes/theme-info/configs/orchid-store-config.php:75
+#: includes/theme-info/configs/royale-news-config.php:75
+#: includes/theme-info/configs/royale-news-pro-config.php:51
+#: includes/theme-info/configs/styleblog-plus-config.php:51
+msgid "Getting Started"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:78
+#: includes/theme-info/configs/cream-blog-pro-config.php:54
+#: includes/theme-info/configs/cream-magazine-config.php:77
+#: includes/theme-info/configs/cream-magazine-pro-config.php:54
+#: includes/theme-info/configs/fascinate-config.php:78
+#: includes/theme-info/configs/fascinate-pro-config.php:54
+#: includes/theme-info/configs/orchid-store-config.php:78
+#: includes/theme-info/configs/royale-news-config.php:78
+#: includes/theme-info/configs/royale-news-pro-config.php:54
+#: includes/theme-info/configs/styleblog-plus-config.php:54
+msgid "Changelog"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:84
+#: includes/theme-info/configs/cream-blog-pro-config.php:60
+#: includes/theme-info/configs/cream-magazine-config.php:83
+#: includes/theme-info/configs/cream-magazine-pro-config.php:60
+#: includes/theme-info/configs/fascinate-config.php:84
+#: includes/theme-info/configs/fascinate-pro-config.php:60
+#: includes/theme-info/configs/orchid-store-config.php:84
+#: includes/theme-info/configs/royale-news-config.php:84
+#: includes/theme-info/configs/royale-news-pro-config.php:60
+#: includes/theme-info/configs/styleblog-plus-config.php:60
+msgid "Site Identity"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:86
+#: includes/theme-info/configs/cream-blog-config.php:95
+#: includes/theme-info/configs/cream-blog-config.php:104
+#: includes/theme-info/configs/cream-blog-config.php:113
+#: includes/theme-info/configs/cream-blog-config.php:122
+#: includes/theme-info/configs/cream-blog-config.php:131
+#: includes/theme-info/configs/cream-blog-config.php:140
+#: includes/theme-info/configs/cream-blog-config.php:149
+#: includes/theme-info/configs/cream-blog-config.php:158
+#: includes/theme-info/configs/cream-blog-config.php:167
+#: includes/theme-info/configs/cream-blog-config.php:176
+#: includes/theme-info/configs/cream-blog-config.php:185
+#: includes/theme-info/configs/cream-blog-config.php:194
+#: includes/theme-info/configs/cream-blog-config.php:203
+#: includes/theme-info/configs/cream-blog-config.php:212
+#: includes/theme-info/configs/cream-blog-config.php:221
+#: includes/theme-info/configs/cream-blog-pro-config.php:62
+#: includes/theme-info/configs/cream-blog-pro-config.php:71
+#: includes/theme-info/configs/cream-blog-pro-config.php:80
+#: includes/theme-info/configs/cream-blog-pro-config.php:89
+#: includes/theme-info/configs/cream-blog-pro-config.php:98
+#: includes/theme-info/configs/cream-blog-pro-config.php:107
+#: includes/theme-info/configs/cream-blog-pro-config.php:116
+#: includes/theme-info/configs/cream-blog-pro-config.php:125
+#: includes/theme-info/configs/cream-blog-pro-config.php:134
+#: includes/theme-info/configs/cream-blog-pro-config.php:143
+#: includes/theme-info/configs/cream-blog-pro-config.php:152
+#: includes/theme-info/configs/cream-blog-pro-config.php:161
+#: includes/theme-info/configs/cream-blog-pro-config.php:170
+#: includes/theme-info/configs/cream-blog-pro-config.php:179
+#: includes/theme-info/configs/cream-blog-pro-config.php:188
+#: includes/theme-info/configs/cream-blog-pro-config.php:197
+#: includes/theme-info/configs/cream-blog-pro-config.php:206
+#: includes/theme-info/configs/cream-blog-pro-config.php:215
+#: includes/theme-info/configs/cream-magazine-config.php:85
+#: includes/theme-info/configs/cream-magazine-config.php:94
+#: includes/theme-info/configs/cream-magazine-config.php:103
+#: includes/theme-info/configs/cream-magazine-config.php:112
+#: includes/theme-info/configs/cream-magazine-config.php:121
+#: includes/theme-info/configs/cream-magazine-config.php:130
+#: includes/theme-info/configs/cream-magazine-config.php:139
+#: includes/theme-info/configs/cream-magazine-config.php:148
+#: includes/theme-info/configs/cream-magazine-config.php:157
+#: includes/theme-info/configs/cream-magazine-config.php:166
+#: includes/theme-info/configs/cream-magazine-config.php:175
+#: includes/theme-info/configs/cream-magazine-config.php:184
+#: includes/theme-info/configs/cream-magazine-config.php:193
+#: includes/theme-info/configs/cream-magazine-config.php:202
+#: includes/theme-info/configs/cream-magazine-config.php:211
+#: includes/theme-info/configs/cream-magazine-config.php:220
+#: includes/theme-info/configs/cream-magazine-config.php:229
+#: includes/theme-info/configs/cream-magazine-config.php:238
+#: includes/theme-info/configs/cream-magazine-config.php:247
+#: includes/theme-info/configs/cream-magazine-config.php:256
+#: includes/theme-info/configs/cream-magazine-config.php:265
+#: includes/theme-info/configs/cream-magazine-config.php:274
+#: includes/theme-info/configs/cream-magazine-config.php:283
+#: includes/theme-info/configs/cream-magazine-pro-config.php:62
+#: includes/theme-info/configs/cream-magazine-pro-config.php:71
+#: includes/theme-info/configs/cream-magazine-pro-config.php:80
+#: includes/theme-info/configs/cream-magazine-pro-config.php:89
+#: includes/theme-info/configs/cream-magazine-pro-config.php:98
+#: includes/theme-info/configs/cream-magazine-pro-config.php:107
+#: includes/theme-info/configs/cream-magazine-pro-config.php:116
+#: includes/theme-info/configs/cream-magazine-pro-config.php:125
+#: includes/theme-info/configs/cream-magazine-pro-config.php:134
+#: includes/theme-info/configs/cream-magazine-pro-config.php:143
+#: includes/theme-info/configs/cream-magazine-pro-config.php:152
+#: includes/theme-info/configs/cream-magazine-pro-config.php:161
+#: includes/theme-info/configs/cream-magazine-pro-config.php:170
+#: includes/theme-info/configs/cream-magazine-pro-config.php:179
+#: includes/theme-info/configs/cream-magazine-pro-config.php:188
+#: includes/theme-info/configs/cream-magazine-pro-config.php:197
+#: includes/theme-info/configs/cream-magazine-pro-config.php:206
+#: includes/theme-info/configs/cream-magazine-pro-config.php:215
+#: includes/theme-info/configs/cream-magazine-pro-config.php:224
+#: includes/theme-info/configs/cream-magazine-pro-config.php:233
+#: includes/theme-info/configs/cream-magazine-pro-config.php:242
+#: includes/theme-info/configs/cream-magazine-pro-config.php:251
+#: includes/theme-info/configs/cream-magazine-pro-config.php:260
+#: includes/theme-info/configs/cream-magazine-pro-config.php:269
+#: includes/theme-info/configs/cream-magazine-pro-config.php:278
+#: includes/theme-info/configs/fascinate-config.php:86
+#: includes/theme-info/configs/fascinate-config.php:95
+#: includes/theme-info/configs/fascinate-config.php:104
+#: includes/theme-info/configs/fascinate-config.php:113
+#: includes/theme-info/configs/fascinate-config.php:122
+#: includes/theme-info/configs/fascinate-config.php:131
+#: includes/theme-info/configs/fascinate-config.php:140
+#: includes/theme-info/configs/fascinate-config.php:149
+#: includes/theme-info/configs/fascinate-config.php:158
+#: includes/theme-info/configs/fascinate-config.php:167
+#: includes/theme-info/configs/fascinate-config.php:176
+#: includes/theme-info/configs/fascinate-config.php:185
+#: includes/theme-info/configs/fascinate-config.php:194
+#: includes/theme-info/configs/fascinate-config.php:203
+#: includes/theme-info/configs/fascinate-config.php:212
+#: includes/theme-info/configs/fascinate-config.php:221
+#: includes/theme-info/configs/fascinate-config.php:230
+#: includes/theme-info/configs/fascinate-config.php:239
+#: includes/theme-info/configs/fascinate-pro-config.php:62
+#: includes/theme-info/configs/fascinate-pro-config.php:71
+#: includes/theme-info/configs/fascinate-pro-config.php:80
+#: includes/theme-info/configs/fascinate-pro-config.php:89
+#: includes/theme-info/configs/fascinate-pro-config.php:98
+#: includes/theme-info/configs/fascinate-pro-config.php:107
+#: includes/theme-info/configs/fascinate-pro-config.php:116
+#: includes/theme-info/configs/fascinate-pro-config.php:125
+#: includes/theme-info/configs/fascinate-pro-config.php:134
+#: includes/theme-info/configs/fascinate-pro-config.php:143
+#: includes/theme-info/configs/fascinate-pro-config.php:152
+#: includes/theme-info/configs/fascinate-pro-config.php:161
+#: includes/theme-info/configs/fascinate-pro-config.php:170
+#: includes/theme-info/configs/fascinate-pro-config.php:179
+#: includes/theme-info/configs/fascinate-pro-config.php:188
+#: includes/theme-info/configs/fascinate-pro-config.php:197
+#: includes/theme-info/configs/fascinate-pro-config.php:206
+#: includes/theme-info/configs/fascinate-pro-config.php:215
+#: includes/theme-info/configs/fascinate-pro-config.php:224
+#: includes/theme-info/configs/fascinate-pro-config.php:233
+#: includes/theme-info/configs/fascinate-pro-config.php:242
+#: includes/theme-info/configs/orchid-store-config.php:86
+#: includes/theme-info/configs/orchid-store-config.php:95
+#: includes/theme-info/configs/orchid-store-config.php:104
+#: includes/theme-info/configs/orchid-store-config.php:113
+#: includes/theme-info/configs/orchid-store-config.php:122
+#: includes/theme-info/configs/orchid-store-config.php:131
+#: includes/theme-info/configs/orchid-store-config.php:140
+#: includes/theme-info/configs/orchid-store-config.php:149
+#: includes/theme-info/configs/orchid-store-config.php:158
+#: includes/theme-info/configs/orchid-store-config.php:167
+#: includes/theme-info/configs/orchid-store-config.php:176
+#: includes/theme-info/configs/orchid-store-config.php:185
+#: includes/theme-info/configs/orchid-store-config.php:194
+#: includes/theme-info/configs/orchid-store-config.php:203
+#: includes/theme-info/configs/orchid-store-config.php:212
+#: includes/theme-info/configs/orchid-store-config.php:221
+#: includes/theme-info/configs/orchid-store-config.php:230
+#: includes/theme-info/configs/royale-news-config.php:86
+#: includes/theme-info/configs/royale-news-config.php:95
+#: includes/theme-info/configs/royale-news-config.php:104
+#: includes/theme-info/configs/royale-news-config.php:113
+#: includes/theme-info/configs/royale-news-config.php:122
+#: includes/theme-info/configs/royale-news-config.php:131
+#: includes/theme-info/configs/royale-news-config.php:140
+#: includes/theme-info/configs/royale-news-config.php:149
+#: includes/theme-info/configs/royale-news-config.php:158
+#: includes/theme-info/configs/royale-news-config.php:167
+#: includes/theme-info/configs/royale-news-config.php:176
+#: includes/theme-info/configs/royale-news-config.php:185
+#: includes/theme-info/configs/royale-news-config.php:194
+#: includes/theme-info/configs/royale-news-config.php:203
+#: includes/theme-info/configs/royale-news-config.php:212
+#: includes/theme-info/configs/royale-news-config.php:221
+#: includes/theme-info/configs/royale-news-pro-config.php:62
+#: includes/theme-info/configs/royale-news-pro-config.php:71
+#: includes/theme-info/configs/royale-news-pro-config.php:80
+#: includes/theme-info/configs/royale-news-pro-config.php:89
+#: includes/theme-info/configs/royale-news-pro-config.php:98
+#: includes/theme-info/configs/royale-news-pro-config.php:107
+#: includes/theme-info/configs/royale-news-pro-config.php:116
+#: includes/theme-info/configs/royale-news-pro-config.php:125
+#: includes/theme-info/configs/royale-news-pro-config.php:134
+#: includes/theme-info/configs/royale-news-pro-config.php:143
+#: includes/theme-info/configs/royale-news-pro-config.php:152
+#: includes/theme-info/configs/royale-news-pro-config.php:161
+#: includes/theme-info/configs/royale-news-pro-config.php:170
+#: includes/theme-info/configs/royale-news-pro-config.php:179
+#: includes/theme-info/configs/royale-news-pro-config.php:188
+#: includes/theme-info/configs/styleblog-plus-config.php:62
+#: includes/theme-info/configs/styleblog-plus-config.php:71
+#: includes/theme-info/configs/styleblog-plus-config.php:80
+#: includes/theme-info/configs/styleblog-plus-config.php:89
+#: includes/theme-info/configs/styleblog-plus-config.php:98
+#: includes/theme-info/configs/styleblog-plus-config.php:107
+#: includes/theme-info/configs/styleblog-plus-config.php:116
+#: includes/theme-info/configs/styleblog-plus-config.php:125
+#: includes/theme-info/configs/styleblog-plus-config.php:134
+#: includes/theme-info/configs/styleblog-plus-config.php:143
+#: includes/theme-info/configs/styleblog-plus-config.php:152
+#: includes/theme-info/configs/styleblog-plus-config.php:161
+#: includes/theme-info/configs/styleblog-plus-config.php:170
+#: includes/theme-info/configs/styleblog-plus-config.php:179
+#: includes/theme-info/configs/styleblog-plus-config.php:188
+#: includes/theme-info/configs/styleblog-plus-config.php:197
+#: includes/theme-info/configs/styleblog-plus-config.php:206
+#: includes/theme-info/configs/styleblog-plus-config.php:215
+#: includes/theme-info/configs/styleblog-plus-config.php:224
+msgid "Customize"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:93
+#: includes/theme-info/configs/cream-blog-pro-config.php:177
+#: includes/theme-info/configs/fascinate-pro-config.php:186
+#: includes/theme-info/configs/orchid-store-config.php:147
+#: includes/theme-info/configs/royale-news-config.php:165
+#: includes/theme-info/configs/styleblog-plus-config.php:168
+msgid "Color Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:102
+#: includes/theme-info/configs/cream-blog-pro-config.php:69
+#: includes/theme-info/configs/cream-magazine-config.php:101
+msgid "Banner/Slider Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:111
+#: includes/theme-info/configs/cream-blog-config.php:248
+#: includes/theme-info/configs/cream-blog-pro-config.php:78
+#: includes/theme-info/configs/royale-news-config.php:239
+msgid "Post Listing Layouts"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:120
+#: includes/theme-info/configs/cream-blog-pro-config.php:87
+#: includes/theme-info/configs/cream-magazine-config.php:236
+#: includes/theme-info/configs/cream-magazine-pro-config.php:141
+#: includes/theme-info/configs/royale-news-config.php:174
+msgid "Header Image Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:129
+#: includes/theme-info/configs/cream-magazine-config.php:272
+#: includes/theme-info/configs/fascinate-config.php:228
+#: includes/theme-info/configs/fascinate-pro-config.php:231
+#: includes/theme-info/configs/orchid-store-config.php:93
+#: includes/theme-info/configs/royale-news-config.php:210
+#: includes/theme-info/configs/royale-news-pro-config.php:177
+#: includes/theme-info/configs/styleblog-plus-config.php:213
+msgid "Homepage Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:138
+#: includes/theme-info/configs/cream-blog-config.php:230
+#: includes/theme-info/configs/cream-blog-pro-config.php:105
+#: includes/theme-info/configs/cream-magazine-config.php:310
+#: includes/theme-info/configs/cream-magazine-pro-config.php:114
+#: includes/theme-info/configs/fascinate-config.php:275
+#: includes/theme-info/configs/royale-news-config.php:230
+msgid "Header Layouts"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:147
+#: includes/theme-info/configs/cream-blog-pro-config.php:114
+#: includes/theme-info/configs/cream-magazine-config.php:128
+#: includes/theme-info/configs/cream-magazine-pro-config.php:195
+#: includes/theme-info/configs/fascinate-config.php:111
+#: includes/theme-info/configs/fascinate-pro-config.php:159
+#: includes/theme-info/configs/orchid-store-config.php:165
+#: includes/theme-info/configs/royale-news-pro-config.php:114
+#: includes/theme-info/configs/styleblog-plus-config.php:105
+msgid "Footer Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:156
+#: includes/theme-info/configs/cream-blog-pro-config.php:123
+#: includes/theme-info/configs/cream-magazine-config.php:146
+#: includes/theme-info/configs/cream-magazine-pro-config.php:78
+#: includes/theme-info/configs/fascinate-config.php:183
+#: includes/theme-info/configs/royale-news-config.php:138
+#: includes/theme-info/configs/royale-news-pro-config.php:96
+#: includes/theme-info/configs/styleblog-plus-config.php:114
+msgid "Post Meta Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:165
+#: includes/theme-info/configs/cream-blog-pro-config.php:132
+msgid "Post Excerpt Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:174
+#: includes/theme-info/configs/cream-blog-pro-config.php:141
+#: includes/theme-info/configs/cream-magazine-config.php:164
+#: includes/theme-info/configs/royale-news-config.php:257
+msgid "Social Links"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:183
+#: includes/theme-info/configs/cream-magazine-config.php:173
+#: includes/theme-info/configs/cream-magazine-pro-config.php:168
+#: includes/theme-info/configs/fascinate-pro-config.php:123
+#: includes/theme-info/configs/royale-news-config.php:111
+#: includes/theme-info/configs/royale-news-pro-config.php:78
+#: includes/theme-info/configs/styleblog-plus-config.php:87
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:192
+#: includes/theme-info/configs/cream-blog-pro-config.php:186
+#: includes/theme-info/configs/cream-magazine-config.php:209
+#: includes/theme-info/configs/fascinate-config.php:192
+#: includes/theme-info/configs/fascinate-pro-config.php:195
+#: includes/theme-info/configs/royale-news-config.php:156
+msgid "Typography Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:201
+msgid "Miscellaneous Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:210
+#: includes/theme-info/configs/cream-blog-pro-config.php:195
+#: includes/theme-info/configs/cream-magazine-config.php:254
+#: includes/theme-info/configs/cream-magazine-pro-config.php:132
+#: includes/theme-info/configs/fascinate-config.php:210
+#: includes/theme-info/configs/fascinate-pro-config.php:213
+#: includes/theme-info/configs/orchid-store-config.php:201
+#: includes/theme-info/configs/royale-news-config.php:192
+#: includes/theme-info/configs/royale-news-pro-config.php:159
+#: includes/theme-info/configs/styleblog-plus-config.php:195
+msgid "Menu Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:219
+#: includes/theme-info/configs/cream-blog-pro-config.php:204
+#: includes/theme-info/configs/cream-magazine-config.php:263
+#: includes/theme-info/configs/cream-magazine-pro-config.php:258
+#: includes/theme-info/configs/fascinate-config.php:219
+#: includes/theme-info/configs/fascinate-pro-config.php:222
+#: includes/theme-info/configs/royale-news-config.php:201
+#: includes/theme-info/configs/royale-news-pro-config.php:168
+msgid "Widget Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:232
+#: includes/theme-info/configs/cream-blog-config.php:241
+#: includes/theme-info/configs/cream-blog-config.php:250
+#: includes/theme-info/configs/cream-blog-config.php:259
+#: includes/theme-info/configs/cream-blog-config.php:268
+#: includes/theme-info/configs/cream-blog-config.php:277
+#: includes/theme-info/configs/cream-blog-config.php:286
+#: includes/theme-info/configs/cream-blog-config.php:295
+#: includes/theme-info/configs/cream-blog-config.php:304
+#: includes/theme-info/configs/cream-magazine-config.php:294
+#: includes/theme-info/configs/cream-magazine-config.php:303
+#: includes/theme-info/configs/cream-magazine-config.php:312
+#: includes/theme-info/configs/cream-magazine-config.php:321
+#: includes/theme-info/configs/cream-magazine-config.php:330
+#: includes/theme-info/configs/cream-magazine-config.php:339
+#: includes/theme-info/configs/cream-magazine-config.php:348
+#: includes/theme-info/configs/cream-magazine-config.php:357
+#: includes/theme-info/configs/cream-magazine-config.php:366
+#: includes/theme-info/configs/cream-magazine-config.php:375
+#: includes/theme-info/configs/cream-magazine-config.php:384
+#: includes/theme-info/configs/fascinate-config.php:250
+#: includes/theme-info/configs/fascinate-config.php:259
+#: includes/theme-info/configs/fascinate-config.php:268
+#: includes/theme-info/configs/fascinate-config.php:277
+#: includes/theme-info/configs/fascinate-config.php:286
+#: includes/theme-info/configs/fascinate-config.php:295
+#: includes/theme-info/configs/fascinate-config.php:304
+#: includes/theme-info/configs/fascinate-config.php:313
+#: includes/theme-info/configs/fascinate-config.php:322
+#: includes/theme-info/configs/fascinate-config.php:331
+#: includes/theme-info/configs/orchid-store-config.php:241
+#: includes/theme-info/configs/orchid-store-config.php:250
+#: includes/theme-info/configs/orchid-store-config.php:259
+#: includes/theme-info/configs/orchid-store-config.php:268
+#: includes/theme-info/configs/orchid-store-config.php:277
+#: includes/theme-info/configs/orchid-store-config.php:286
+#: includes/theme-info/configs/orchid-store-config.php:295
+#: includes/theme-info/configs/orchid-store-config.php:304
+#: includes/theme-info/configs/orchid-store-config.php:313
+#: includes/theme-info/configs/royale-news-config.php:232
+#: includes/theme-info/configs/royale-news-config.php:241
+#: includes/theme-info/configs/royale-news-config.php:250
+#: includes/theme-info/configs/royale-news-config.php:259
+#: includes/theme-info/configs/royale-news-config.php:268
+#: includes/theme-info/configs/royale-news-config.php:277
+#: includes/theme-info/configs/royale-news-config.php:286
+#: includes/theme-info/configs/royale-news-config.php:295
+#: includes/theme-info/configs/royale-news-config.php:304
+msgid "Learn More"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:239
+#: includes/theme-info/configs/cream-magazine-config.php:319
+msgid "Banner Layouts"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:257
+msgid "Category Widget"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:266
+#: includes/theme-info/configs/cream-magazine-config.php:364
+msgid "Social Widget"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:275
+#: includes/theme-info/configs/cream-magazine-config.php:382
+#: includes/theme-info/configs/fascinate-config.php:266
+#: includes/theme-info/configs/orchid-store-config.php:248
+#: includes/theme-info/configs/royale-news-pro-config.php:141
+msgid "Advance Typography Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:284
+#: includes/theme-info/configs/cream-magazine-config.php:301
+#: includes/theme-info/configs/fascinate-config.php:257
+#: includes/theme-info/configs/orchid-store-config.php:239
+#: includes/theme-info/configs/royale-news-config.php:293
+#: includes/theme-info/configs/royale-news-pro-config.php:132
+msgid "Advance Color Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:293
+msgid "Breadcrumb Layouts"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-config.php:302
+#: includes/theme-info/configs/cream-blog-pro-config.php:150
+#: includes/theme-info/configs/fascinate-config.php:293
+msgid "Pagination Layouts"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-pro-config.php:20
+#: includes/theme-info/configs/cream-blog-pro-config.php:21
+msgid "Cream Blog Pro Info"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-pro-config.php:96
+msgid "Homepage Settings"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-pro-config.php:159
+#: includes/theme-info/configs/fascinate-config.php:329
+msgid "Fallback Image"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-pro-config.php:168
+#: includes/theme-info/configs/cream-magazine-config.php:182
+#: includes/theme-info/configs/cream-magazine-pro-config.php:186
+#: includes/theme-info/configs/fascinate-config.php:138
+#: includes/theme-info/configs/fascinate-config.php:165
+#: includes/theme-info/configs/fascinate-pro-config.php:150
+#: includes/theme-info/configs/orchid-store-config.php:156
+#: includes/theme-info/configs/royale-news-config.php:129
+#: includes/theme-info/configs/royale-news-pro-config.php:105
+msgid "Sidebar Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-blog-pro-config.php:213
+msgid "Miscellaneous"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-config.php:22
+#: includes/theme-info/configs/cream-magazine-config.php:23
+msgid "Cream Magazine Info"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-config.php:92
+msgid "News Area Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-config.php:110
+#: includes/theme-info/configs/cream-magazine-pro-config.php:177
+#: includes/theme-info/configs/royale-news-config.php:93
+msgid "Ticker News Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-config.php:119
+#: includes/theme-info/configs/fascinate-config.php:102
+#: includes/theme-info/configs/fascinate-pro-config.php:78
+#: includes/theme-info/configs/orchid-store-config.php:120
+#: includes/theme-info/configs/royale-news-pro-config.php:69
+#: includes/theme-info/configs/styleblog-plus-config.php:78
+msgid "Header Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-config.php:137
+#: includes/theme-info/configs/cream-magazine-pro-config.php:150
+#: includes/theme-info/configs/orchid-store-config.php:138
+#: includes/theme-info/configs/royale-news-config.php:120
+#: includes/theme-info/configs/royale-news-pro-config.php:87
+msgid "Blog Page Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-config.php:155
+#: includes/theme-info/configs/cream-magazine-pro-config.php:204
+#: includes/theme-info/configs/fascinate-config.php:174
+#: includes/theme-info/configs/fascinate-pro-config.php:168
+#: includes/theme-info/configs/orchid-store-config.php:174
+#: includes/theme-info/configs/royale-news-config.php:147
+#: includes/theme-info/configs/royale-news-pro-config.php:123
+msgid "Excerpt Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-config.php:191
+msgid "Theme Color Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-config.php:200
+msgid "Category Meta Color"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-config.php:218
+msgid "Global Customization"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-config.php:227
+msgid "Layout Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-config.php:245
+msgid "Site Background Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-config.php:281
+#: includes/theme-info/configs/orchid-store-config.php:228
+msgid "Additional CSS Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-config.php:292
+msgid "Theme Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-config.php:328
+msgid "News Widget"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-config.php:337
+#: includes/theme-info/configs/royale-news-config.php:266
+msgid "Related Posts Section"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-config.php:346
+msgid "Ajax Post Loading"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-config.php:355
+#: includes/theme-info/configs/royale-news-config.php:284
+msgid "Fallback Image Option"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-config.php:373
+msgid "Sidebar/Footer Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-pro-config.php:20
+#: includes/theme-info/configs/cream-magazine-pro-config.php:21
+msgid "Cream Magazine Pro Info"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-pro-config.php:69
+msgid "Site Layouts"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-pro-config.php:87
+msgid "Advanced Typography Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-pro-config.php:96
+msgid "Top News Area Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-pro-config.php:105
+msgid "Video Section Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-pro-config.php:123
+msgid "Top Header Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-pro-config.php:159
+msgid "Pagination/Navigation Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-pro-config.php:213
+msgid "Social Link Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-pro-config.php:222
+msgid " Image Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-pro-config.php:231
+msgid " Color Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-pro-config.php:240
+msgid " Background Image Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-pro-config.php:249
+msgid " Menu Options"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-pro-config.php:267
+msgid "Homepage Customization"
+msgstr ""
+
+#: includes/theme-info/configs/cream-magazine-pro-config.php:276
+#: includes/theme-info/configs/royale-news-config.php:219
+#: includes/theme-info/configs/royale-news-pro-config.php:186
+#: includes/theme-info/configs/styleblog-plus-config.php:222
+msgid "Additional CSS"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-config.php:22
+#: includes/theme-info/configs/fascinate-config.php:23
+msgid "Fascinate Info"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-config.php:93
+#: includes/theme-info/configs/fascinate-pro-config.php:69
+msgid "Site Layout"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-config.php:120
+#: includes/theme-info/configs/fascinate-pro-config.php:105
+msgid "Carousel Options"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-config.php:129
+#: includes/theme-info/configs/fascinate-pro-config.php:96
+msgid "Preloader Options"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-config.php:147
+#: includes/theme-info/configs/fascinate-pro-config.php:87
+msgid "Pages Options"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-config.php:156
+msgid "Breadcrumbs Options"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-config.php:201
+#: includes/theme-info/configs/orchid-store-config.php:192
+msgid "Background Options"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-config.php:237
+msgid "CSS Options"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-config.php:248
+msgid "AJAX Posts Loading"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-config.php:284
+msgid "Carousel Layouts"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-config.php:302
+msgid "Additional Sections"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-config.php:311
+msgid "Additional Widgets"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-config.php:320
+msgid "Social Share"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-pro-config.php:20
+#: includes/theme-info/configs/fascinate-pro-config.php:21
+msgid "Fascinate Pro Info"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-pro-config.php:114
+msgid "Featured Categories Options"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-pro-config.php:132
+msgid "Pagination Options"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-pro-config.php:141
+msgid "Image Options"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-pro-config.php:177
+msgid "Social Share Options"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-pro-config.php:204
+#: includes/theme-info/configs/royale-news-config.php:183
+#: includes/theme-info/configs/royale-news-pro-config.php:150
+msgid "Background Image Options"
+msgstr ""
+
+#: includes/theme-info/configs/fascinate-pro-config.php:240
+msgid "Custom CSS Options"
+msgstr ""
+
+#: includes/theme-info/configs/orchid-store-config.php:22
+#: includes/theme-info/configs/orchid-store-config.php:23
+msgid "Orchid Store Info"
+msgstr ""
+
+#: includes/theme-info/configs/orchid-store-config.php:102
+msgid "General Options"
+msgstr ""
+
+#: includes/theme-info/configs/orchid-store-config.php:111
+msgid "Site Layout Options"
+msgstr ""
+
+#: includes/theme-info/configs/orchid-store-config.php:129
+msgid "Page Header Options"
+msgstr ""
+
+#: includes/theme-info/configs/orchid-store-config.php:183
+msgid "Accessibility Options"
+msgstr ""
+
+#: includes/theme-info/configs/orchid-store-config.php:210
+msgid "Widgets Options"
+msgstr ""
+
+#: includes/theme-info/configs/orchid-store-config.php:219
+msgid "Woocommerce Options"
+msgstr ""
+
+#: includes/theme-info/configs/orchid-store-config.php:257
+msgid "Header layouts"
+msgstr ""
+
+#: includes/theme-info/configs/orchid-store-config.php:266
+msgid "Banner layouts"
+msgstr ""
+
+#: includes/theme-info/configs/orchid-store-config.php:275
+msgid "Product Widget"
+msgstr ""
+
+#: includes/theme-info/configs/orchid-store-config.php:284
+msgid "Product Deal Widget"
+msgstr ""
+
+#: includes/theme-info/configs/orchid-store-config.php:293
+msgid "Testimonial Widget"
+msgstr ""
+
+#: includes/theme-info/configs/orchid-store-config.php:302
+msgid "Featured Brand Widget"
+msgstr ""
+
+#: includes/theme-info/configs/orchid-store-config.php:311
+msgid "CTA Widget"
+msgstr ""
+
+#: includes/theme-info/configs/royale-news-config.php:22
+#: includes/theme-info/configs/royale-news-config.php:23
+msgid "Royale News Info"
+msgstr ""
+
+#: includes/theme-info/configs/royale-news-config.php:102
+msgid "Copyright Text Options"
+msgstr ""
+
+#: includes/theme-info/configs/royale-news-config.php:248
+msgid "Built-In Social Share"
+msgstr ""
+
+#: includes/theme-info/configs/royale-news-config.php:275
+msgid "Custom Widgets"
+msgstr ""
+
+#: includes/theme-info/configs/royale-news-config.php:302
+msgid "Advance Typo Options"
+msgstr ""
+
+#: includes/theme-info/configs/royale-news-pro-config.php:20
+#: includes/theme-info/configs/royale-news-pro-config.php:21
+msgid "Royale News Pro Info"
+msgstr ""
+
+#: includes/theme-info/configs/styleblog-plus-config.php:20
+#: includes/theme-info/configs/styleblog-plus-config.php:21
+msgid "StyleBlog Plus Info"
+msgstr ""
+
+#: includes/theme-info/configs/styleblog-plus-config.php:69
+msgid "Font/Color Options"
+msgstr ""
+
+#: includes/theme-info/configs/styleblog-plus-config.php:96
+msgid "Post Page Options"
+msgstr ""
+
+#: includes/theme-info/configs/styleblog-plus-config.php:123
+msgid "Other Options"
+msgstr ""
+
+#: includes/theme-info/configs/styleblog-plus-config.php:132
+msgid "Slider Options"
+msgstr ""
+
+#: includes/theme-info/configs/styleblog-plus-config.php:141
+msgid "Blog List Options"
+msgstr ""
+
+#: includes/theme-info/configs/styleblog-plus-config.php:150
+msgid "Affiliate Product Section"
+msgstr ""
+
+#: includes/theme-info/configs/styleblog-plus-config.php:159
+msgid "Video Post Options"
+msgstr ""
+
+#: includes/theme-info/configs/styleblog-plus-config.php:177
+msgid "Header Image"
+msgstr ""
+
+#: includes/theme-info/configs/styleblog-plus-config.php:186
+msgid "Background Image"
+msgstr ""
+
+#: includes/theme-info/configs/styleblog-plus-config.php:204
+msgid "Widgets"
+msgstr ""
