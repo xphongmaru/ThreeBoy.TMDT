@@ -1,4 +1,17 @@
 <?php
+
+function rename_custom_order_status( $order_statuses ) {
+    // Thay đổi tên trạng thái đơn hàng theo nhu cầu
+    $order_statuses['wc-driver-assigned'] = 'Đã phân công tài xế';
+    $order_statuses['wc-out-for-delivery'] = 'Đang giao hàng';
+    $order_statuses['wc-delivered'] = 'Đã giao thành công';
+    $order_statuses['wc-failed-delivery'] = 'Giao hàng không thành công';
+
+    return $order_statuses;
+}
+add_filter( 'wc_order_statuses', 'rename_custom_order_status' );
+
+
 /**
  * Main WordPress API
  *

@@ -1,0 +1,7 @@
+2025-03-20T03:19:04+00:00 INFO Payment gateway enabled: "Chuyển khoản ngân hàng (Quét mã VietQR)"
+2025-03-20T03:28:19+00:00 INFO Payment gateway enabled: "Thanh toán bằng chuyển khoản ngân hàng (quét mã QR)"
+2025-03-20T07:12:39+00:00 INFO Payment gateway enabled: "Chuyển khoản ngân hàng (Quét mã VietQR)"
+2025-03-20T08:12:06+00:00 INFO Payment gateway enabled: "SePay"
+2025-03-20T09:03:49+00:00 INFO Payment gateway enabled: "SePay"
+2025-03-20T09:27:08+00:00 INFO Payment gateway enabled: "SePay"
+2025-03-20T09:30:17+00:00 WARNING Các mẫu trống nhận được từ PTK Pattern Store
