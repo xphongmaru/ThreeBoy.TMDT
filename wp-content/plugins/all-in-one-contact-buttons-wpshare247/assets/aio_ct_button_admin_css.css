@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+.ws247-aio-pro-form, .ws247-aio-pro-mb-20{
+	margin-bottom: 20px;
+}
+
+.ws247-aio-pro-list-icons{
+	display: flex;
+    flex-wrap: wrap;
+}
+
+#dialog-ws247-aio-pro-icons .icon-add-new{
+	font-size: 1.1rem;
+    outline: none;
+    color: #222;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid;
+    margin-bottom: 4px;
+    margin: 3px;
+    padding: 1px;
+    flex: 1 1 30px;
+}
+
+#dialog-ws247-aio-pro-icons .icon-add-new.current{
+	color: #f00 !important;
+}
+
+#ws247-aio-pro-icon-search{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#ws247-aio-pro-table-icons .ui-sortable .ui-sortable-handle{
+    border: 1px dashed #FF5722;
+    cursor: move;
+}
+
+#ws247-aio-pro-table-icons .ui-sortable .ui-sortable-handle th{
+    padding-left: 20px;
+    padding-right: 0;
+}
+body.wp247-aio-pro-enable #ws247-aio-pro-tr-icons .tr-icon-group >td{
+    padding-left: 0;
+} 
+
+#ws247-aio-pro-tr-icons > td{ padding:0; }
+
+#ws247-aio-pro-row-add-btn .button{
+    background: #f00;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+#ws247-aio-pro-row-add-btn .button .dashicons{
+    margin-top: 4px;
+    color: #fff;
+}
+
+.checkbox-group-div{
+    margin-top: 10px;
+}
+
+.checkbox-group-div .checkbox-span{
+    margin-right: 10px;
+}

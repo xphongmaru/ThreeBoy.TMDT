@@ -11,6 +11,39 @@ function rename_custom_order_status( $order_statuses ) {
 }
 add_filter( 'wc_order_statuses', 'rename_custom_order_status' );
 
+function custom_translate_text($translated, $original, $domain) {
+    $translations = array(
+        'Available Coupons' => 'Phiếu giảm giá có sẵn',
+        'Used Coupons' => 'Phiếu giảm giá đã dùng',
+        'Cart discount' => 'Giảm ngay',
+        'Product discount' => 'Giảm ngay',
+        'Expires on' => 'Hết hạn vào',
+        'Expired Coupons' => 'Phiếu giảm giá đã hết hạn',
+        "Sorry, you don't have any expired coupons" => 'Xin lỗi, bạn không có phiếu giảm giá nào hết hạn',
+        'Sort by' => 'Sắp xếp',
+        'Latest first' =>'Mới nhất',
+        'Latest last' =>'Lâu nhất',
+        'Price high to low' =>'Giá từ cao đến thấp',
+        'Price low to high' =>'Giá từ thấp đến cao',
+        'My Coupons' =>'Mã giảm giá',
+        'Product Image' => 'Ảnh sản phẩm',
+        'Product Name' => 'Tên sản phẩm',
+		'Unit Price' => 'Đơn giá',
+		'Stock Status' => 'Ảnh sản phẩm',
+		'Actions' => 'Hành động',
+
+    );
+
+    if (isset($translations[$original])) {
+        return $translations[$original];
+    }
+
+    return $translated;
+}
+
+add_filter('gettext', 'custom_translate_text', 10, 3);
+
+
 
 /**
  * Main WordPress API
